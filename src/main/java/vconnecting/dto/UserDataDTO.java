@@ -1,9 +1,9 @@
-package murraco.dto;
+package vconnecting.dto;
 
 import java.util.List;
 
 import io.swagger.annotations.ApiModelProperty;
-import murraco.model.Role;
+import vconnecting.model.Role;
 
 public class UserDataDTO {
 

@@ -1,4 +1,4 @@
-package murraco.service;
+package vconnecting.service;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -10,10 +10,10 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import murraco.exception.CustomException;
-import murraco.model.User;
-import murraco.repository.UserRepository;
-import murraco.security.JwtTokenProvider;
+import vconnecting.exception.CustomException;
+import vconnecting.model.User;
+import vconnecting.repository.UserRepository;
+import vconnecting.security.JwtTokenProvider;
 
 @Service
 public class UserService {

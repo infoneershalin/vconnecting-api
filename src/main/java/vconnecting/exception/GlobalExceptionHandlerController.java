@@ -1,4 +1,4 @@
-package murraco.exception;
+package vconnecting.exception;
 
 import java.io.IOException;
 import java.util.Map;

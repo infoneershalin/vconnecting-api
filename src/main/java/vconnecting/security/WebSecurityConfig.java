@@ -1,4 +1,4 @@
-package murraco.security;
+package vconnecting.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -33,6 +33,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     http.authorizeRequests()//
         .antMatchers("/users/signin").permitAll()//
         .antMatchers("/users/signup").permitAll()//
+        .antMatchers("/categories/category").permitAll()//
+        .antMatchers("/categories/subcategory").permitAll()//
         .antMatchers("/h2-console/**/**").permitAll()
         // Disallow everything else..
         .anyRequest().authenticated();

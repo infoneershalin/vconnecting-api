@@ -1,4 +1,4 @@
-package murraco.security;
+package vconnecting.security;
 
 import java.util.Base64;
 import java.util.Date;
@@ -22,8 +22,8 @@ import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-import murraco.exception.CustomException;
-import murraco.model.Role;
+import vconnecting.exception.CustomException;
+import vconnecting.model.Role;
 
 @Component
 public class JwtTokenProvider {

@@ -1,4 +1,4 @@
-package murraco.configuration;
+package vconnecting.configuration;
 
 import java.util.ArrayList;
 import java.util.Arrays;
